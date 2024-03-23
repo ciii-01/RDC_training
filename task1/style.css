@@ -1005,17 +1005,24 @@ h5 {
 /* ------------------------------- */
 .group6_pic {
     position: relative;
+<<<<<<< HEAD
     /* background-color: pink; */
+=======
+    background-color: pink;
+>>>>>>> 933df4aab67d92b63e4b278027092c28cb4347d9
     width: 960px;
     height: 350px;
     border-radius: 5px;
     margin: 40px auto 0 auto;
 }
 
+<<<<<<< HEAD
 .group6_pic img {
     position: relative;
 }
 
+=======
+>>>>>>> 933df4aab67d92b63e4b278027092c28cb4347d9
 .group6_pic img:nth-of-type(1) {
     display: block;
     float: left;
@@ -1051,6 +1058,7 @@ h5 {
     height: 170px;
     width: 320px;
     border-radius: 5px;
+<<<<<<< HEAD
 }
 
 .group6_pic .up_ch {
@@ -1361,4 +1369,6 @@ ul li {
     /* background-color: rgb(131, 89, 89); */
     margin-top: 10px;
 
+=======
+>>>>>>> 933df4aab67d92b63e4b278027092c28cb4347d9
 }
