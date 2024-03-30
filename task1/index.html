@@ -10,46 +10,89 @@
 </head>
 
 <body>
+    <!-- 侧边栏 -->
+    <div class="shell">
+        <div class="box"><i class="iconfont icon-shouye"></i><span>首页</span></div>
+        <div class="box"><i class="iconfont icon-zhinanzhen"></i><span>浏览作品</span></div>
+        <div class="box"><i class="iconfont icon-fujin1"></i><span>附近</span></div>
+        <div class="box"><i class="iconfont icon-geren"></i><span>个人资料</span></div>
+        <div class="box"><i class="iconfont icon-jiangbeijiadizuo"></i><span>成就</span></div>
+
+        <div class="box"><i class="iconfont icon-tushuguan"></i><span>典藏</span></div>
+        <div class="box"><i class="iconfont icon-zhuti"></i><span>主题</span></div>
+        <div class="box"><i class="iconfont icon-shiyan"></i><span>实验</span></div>
+
+        <div class="box"><i class="iconfont icon-yishujia"></i><span>艺术家</span></div>
+        <div class="box"><i class="iconfont icon-tupian"></i><span>材质</span></div>
+        <div class="box"><i class="iconfont icon-huabi"></i><span>艺术运动</span></div>
+        <div class="box"><i class="iconfont icon-shizhong"></i><span>历史事件</span></div>
+        <div class="box"><i class="iconfont icon-renwu"></i><span>历史人物</span></div>
+        <div class="box"><i class="iconfont icon-fujin-copy"></i><span>场所</span></div>
+
+        <div class="box"><i class="iconfont icon-jianjie"></i><span>简介</span></div>
+        <div class="box"><i class="iconfont icon-shezhi"></i><span>设置</span></div>
+        <div class="box"><i class="iconfont icon-zhanghaobaohu"></i><span>查看活动</span></div>
+        <div class="box"><i class="iconfont icon-zhichifasongfankui"></i><span>发送反馈</span></div>
+
+
+
+
+
+    </div>
+
     <!-- 导航栏 -->
     <div class="nav">
-        <div class="f_left menu"><a href="#" class="iconfont icon-ego-menu"></a></div>
-        <div class="f_left title">Google艺术与文化</div>
-        <div><a href="#" id="login">登录</a></div>
-        <div><a href="#" class="iconfont icon-24gf-appsSmall2"></a></div>
-        <div><a href="#" class="iconfont icon-sousuo"></a></div>
-        <div><a href="#">收藏</a></div>
-        <div><a href="#">附近</a></div>
-        <div><a href="#">玩一玩</a></div>
-        <div><a href="#">浏览作品</a></div>
-        <div><a href="#">首页</a></div>
+        <!-- 侧边栏按钮+页面标题 -->
+        <div class="left_">
+            <input type="checkbox" id="ctrl_menu" name="ctrl_menu" class="ctrl" checked>
+            <!-- <span class="menu iconfont icon-ego-menu"> -->
+            <label for="ctrl_menu" class="menu iconfont icon-ego-menu"></label>
+            <!-- </span> -->
+            <span>Google艺术与文化</span>
+        </div>
+
+
+
+        <!-- 右侧选项 -->
+        <div class="right_">
+            <span>首页</span>
+            <span>浏览作品</span>
+            <span>玩一玩</span>
+            <span>附近</span>
+            <span>收藏</span>
+            <span class="iconfont icon-sousuo"></span>
+            <span class="iconfont icon-24gf-appsSmall2"></span>
+            <span>登录</span>
+        </div>
     </div>
+
 
     <!-- 标题 -->
     <h1>Choose your adventure...</h1>
     <h5>Explore with Barjeel Art Foundation, Museimpresa, and more</h5>
 
-    <!-- 图片 -->
-    <div class="group1_pic">
+    <!-- 第一组图片 -->
+    <div class="g1_pic">
         <div>
-            <img src="image/01.jpg" alt="" class="pic1">
+            <img src="image/01.jpg" alt="">
             <span class="ch1">An Art Adventure</span>
             <span class="ch2">4 iconic Algerian painters</span>
             <span class="button2"><a href="#">浏览作品</a></span>
         </div>
         <div>
-            <img src="image/02.jpg" alt="" class="pic2">
+            <img src="image/02.jpg" alt="">
             <span class="ch1">A Nature Adventure</span>
             <span class="ch2">Play Rewild the World</span>
             <span class="button2"><a href="#">浏览作品</a></span>
         </div>
         <div>
-            <img src="image/03.jpg" alt="" class="pic3">
+            <img src="image/03.jpg" alt="">
             <span class="ch1">A Museum Adventure</span>
             <span class="ch2">Learn about the history of a beverage</span>
             <span class="button2"><a href="#">浏览作品</a></span>
         </div>
         <div>
-            <img src="image/04.jpg" alt="" class="pic4">
+            <img src="image/04.jpg" alt="">
             <span class="ch1">A History Adventure</span>
             <span class="ch2">DIscover King Arthur's Britain</span>
             <span class="button2"><a href="#">浏览作品</a></span>
@@ -60,43 +103,65 @@
     <h1>A Akagens Museum masterpiece</h1>
 
     <!-- 栏目 -->
-    <div class="column bgi">
+    <div class="column">
         <div class="c1">Peder and Marie Kroyer</div>
         <div class="c2">Meet the artist couple who painted each other</div>
         <div class="c3"><a href="#">Zoom in</a></div>
     </div>
 
     <!-- 圆形图片 -->
-    <div class="round bgi">
+    <div class="round">
         <div class="title_games">GAMES</div>
-        <div class="group2_pic firstround">
+        <div class="g2_pic r1">
             <img src="image/06.jpg" alt="">
             <div class="play1"><a href="#">play</a></div>
         </div>
-        <div class="group2_pic secondround">
+        <div class="g2_pic r2">
             <img src="image/07.jpg" alt="">
             <div class="play2"><a href="#">play</a></div>
         </div>
-        <div class="group2_pic thirdround">
+        <div class="g2_pic r3">
             <img src="image/08.jpg" alt="">
             <div class="play3"><a href="#">play</a></div>
         </div>
-
-        <div class="button1"><a href="#">More games</a></div>
     </div>
+    <div class="button1"><a href="#">More games</a></div>
 
 
     <!-- 标题 -->
     <h1 id="tit_3">Today's top picks</h1>
 
     <!-- 五张图+动画效果 -->
-    <div></div>
+    <div class="picks">
+        <div>
+            <span>A Literary Trail on a Wetland Reserve</span>
+            <span>Take a walk with ASEAN Center for Biodiversity</span>
+        </div>
+        <div>
+            <span>Gobeklitepe:A Mystery for the Ages</span>
+            <span>A groundbreaking archaeological dig</span>
+        </div>
+        <div>
+            <span>The Life of Norman Rockwell</span>
+            <span>Discover with the Norman Rockwell Museum</span>
+        </div>
+        <div>
+            <span>Klimt's Drawings</span>
+            <span>At the Albertina Museum</span>
+        </div>
+        <div>
+            <span>How to Make Healthy Chinese Food</span>
+            <span>With World Federation of Chinese Catering Industry</span>
+        </div>
+
+    </div>
+
 
     <!-- 标题 -->
     <h1>Meet Viola the bird</h1>
     <!-- 一张大图---需添加动画效果 -->
     <div class="bird_pic">
-        <div class="bird w"><img src="image/14.jpg" alt="bird"></div>
+        <div class="bird"><img src="image/14.jpg" alt="bird"></div>
         <div class="bottom_words">Play a Cello-Inspired Instrument with Machine Learning</div>
         <div class="shareicon iconfont icon-fenxiang"></div>
         <div class="bottom_button1"><a href="#">Music museums</a></div>
@@ -107,7 +172,7 @@
     <!-- 标题 -->
     <h1 id="tit_5">What art do you like?</h1>
     <!-- 图片 -->
-    <div class="group3_pic">
+    <div class="g3_pic">
         <div>
             <img src="image/15.jpg" alt="" class="pic15">
             <span class="ch1">Abstract Art</span>
@@ -149,12 +214,12 @@
     <h1>Today's topic:自然主义文学</h1>
 
     <!-- 第四组图片 -->
-    <div class="group4_pic">
-        <div class="bgi"></div>
-        <div class="bgi"></div>
-        <div class="bgi"></div>
-        <div class="bgi"></div>
-        <div class="bgi"></div>
+    <div class="g4_pic">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
 
         <span class="bt_style">按颜色浏览</span>
         <span class="ch_style">自然主义文学作品中使用的灰色</span>
@@ -186,17 +251,83 @@
     <!-- 标题 -->
     <h1>Recommended for you</h1>
     <h5>Discover popular artworks and hidden gems from around the world</h5>
-    <!-- 蒙娜丽莎 -->
+    <!-- Recommended -->
+    <div class="rcm">
+        <i><span class="iconfont icon-shixinyuanxingjiantouzuo"></span></i>
+        <i><span class="iconfont icon-shixinyuanxingjiantouyou"></span></i>
+        <div>
+            <ul>
+                <li>
+                    <div><img src="image/90.jpg" alt=""></div>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="r_ch1">文字1</span>
+                    <span class="r_ch2">文字2</span>
+                </li>
+                <li>
+                    <div><img src="image/91.jpg" alt=""></div>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="r_ch1">文字1</span>
+                    <span class="r_ch2">文字2</span>
+                </li>
+                <li>
+                    <div><img src="image/92.jpg" alt=""></div>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="r_ch1">文字1</span>
+                    <span class="r_ch2">文字2</span>
+                </li>
+                <li>
+                    <div><img src="image/93.jpg" alt=""></div>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="r_ch1">文字1</span>
+                    <span class="r_ch2">文字2</span>
+                </li>
+                <li>
+                    <div><img src="image/94.jpg" alt=""></div>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="r_ch1">文字1</span>
+                    <span class="r_ch2">文字2</span>
+                </li>
+                <li>
+                    <div><img src="image/95.jpg" alt=""></div>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="r_ch1">文字1</span>
+                    <span class="r_ch2">文字2</span>
+                </li>
+                <li>
+                    <div><img src="image/96.jpg" alt=""></div>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="r_ch1">文字1</span>
+                    <span class="r_ch2">文字2</span>
+                </li>
+                <li>
+                    <div><img src="image/97.jpg" alt=""></div>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="r_ch1">文字1</span>
+                    <span class="r_ch2">文字2</span>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!-- 标题 -->
     <h1>What's your favorite color?</h1>
     <h5>Discover over 100,000 artworks by color</h5>
     <!-- 颜色 -->
-
+    <ul class="color">
+        <li><span>Blue-green</span></li>
+        <li><span>Blue</span></li>
+        <li><span>Purple</span></li>
+        <li><span>Pink</span></li>
+        <li><span>Red</span></li>
+        <li><span>Orange</span></li>
+        <li><span>Yellow</span></li>
+        <li><span>Green</span></li>
+    </ul>
 
     <!-- 标题 -->
     <h1>In focus...</h1>
-    <div class="onepic bgi">
+    <div class="onepic">
+        <span class="iconfont icon-fenxiang"></span>
         <div>Our Shared Future</div>
         <div>Reckoning with our racial past with The Smithsonian</div>
     </div>
@@ -205,52 +336,111 @@
     <!-- 标题 -->
     <h1>Discover a new museum</h1>
     <!-- 第五组图片 -->
-    <div class="group5_pic">
-        <div class="bgi"></div>
-        <div class="bgi"></div>
-        <div class="bgi"></div>
-        <div class="bgi"></div>
+    <div class="g5_pic">
+        <div>
+            <ul>
+                <li><img src="image/u1.jpg" alt="" width="40px" height="40px"></li>
+                <li>The Football Museum</li>
+                <li class="ctr">Brazil</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><img src="image/u2.png" alt="" width="60px" height="40px"></li>
+                <li>Underwater Earth</li>
+                <li class="ctr">澳大利亚</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><img src="image/u3.jpg" alt="" width="120px" height="30px"></li>
+                <li>The Sand Museum</li>
+                <li class="ctr">Japan</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><img src="image/u4.png" alt="" width="120px" height="30px"></li>
+                <li>Insect Museum of West China</li>
+                <li class="ctr">China</li>
+            </ul>
+        </div>
 
-        <div>
-            <span><img src="image/u1.jpg" alt="" width="40px" height="40px"></span>
-            <span>The Football Museum</span>
-            <span>Brazil</span>
-        </div>
-        <div>
-            <span><img src="image/u2.png" alt="" width="60px" height="40px"></span>
-            <span>Underwater Earth</span>
-            <span>澳大利亚</span>
-        </div>
-        <div>
-            <span><img src="image/u3.jpg" alt="" width="120px" height="30px"></span>
-            <span>The Sand Museum</span>
-            <span>Japan</span>
-        </div>
-        <div>
-            <span><img src="image/u4.png" alt="" width="120px" height="30px"></span>
-            <span>Insect Museum of West China</span>
-            <span>China</span>
-        </div>
+
 
     </div>
-    <div id="button4"><a href="#">More collections</a></div>
+    <div class="button4"><a href="#">More collections</a></div>
 
     <!-- 标题 -->
     <h1>Step inside a gallery</h1>
     <h5>With Augmented Reality</h5>
     <!-- 轮播图 -->
-
-
+    <div class="gallery">
+        <i><span class="iconfont icon-shixinyuanxingjiantouzuo"></span></i>
+        <i><span class="iconfont icon-shixinyuanxingjiantouyou"></span></i>
+        <div>
+            <ul>
+                <li>
+                    <div><img src="image/38.jpg" alt=""></div>
+                    <span class="iconfont icon-fenxiang"></span>
+                    <span class="g_ch1">Discover Indian Miniatures</span>
+                    <span class="g_ch2">See the tiny works up close</span>
+                </li>
+                <li>
+                    <div><img src="image/39.jpg" alt=""></div>
+                    <span class="iconfont icon-fenxiang"></span>
+                    <span class="g_ch1">Inside the Jean Pigozzi Collection</span>
+                    <span class="g_ch2">Art from Africa to Japan</span>
+                </li>
+                <li>
+                    <div><img src="image/40.jpg" alt=""></div>
+                    <span class="iconfont icon-fenxiang"></span>
+                    <span class="g_ch1">Getty Museum: Immersive Experience</span>
+                    <span class="g_ch2">Discover paintings from Los Angeles' iconic collection</span>
+                </li>
+                <li>
+                    <div><img src="image/41.jpg" alt=""></div>
+                    <span class="iconfont icon-fenxiang"></span>
+                    <span class="g_ch1">Discover the Art of Color</span>
+                    <span class="g_ch2">See artworks from around the world</span>
+                </li>
+                <li>
+                    <div><img src="image/42.jpg" alt=""></div>
+                    <span class="iconfont icon-fenxiang"></span>
+                    <span class="g_ch1">Meet Vermeer</span>
+                    <span class="g_ch2">All of the artist's paintings together for the first time</span>
+                </li>
+                <li>
+                    <div><img src="image/43.jpg" alt=""></div>
+                    <span class="iconfont icon-fenxiang"></span>
+                    <span class="g_ch1">Explore Klimt's Masterpieces</span>
+                    <span class="g_ch2">A never-before-seen gallery of the artist's works</span>
+                </li>
+                <li>
+                    <div><img src="image/44.jpg" alt=""></div>
+                    <span class="iconfont icon-fenxiang"></span>
+                    <span class="g_ch1">Enjoy an Audio Art Tour</span>
+                    <span class="g_ch2">Where sound and art come together</span>
+                </li>
+                <li>
+                    <div><img src="image/45.jpg" alt=""></div>
+                    <span class="iconfont icon-fenxiang"></span>
+                    <span class="g_ch1">Enter a Kandinsky Exhibition</span>
+                    <span class="g_ch2">View the artist's work in a virtual gallery</span>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!-- 标题 -->
     <h1>Cast-off</h1>
     <h5>Choose a vessel with a twist</h5>
 
-    <div class="group6_pic">
-        <img src="image/46.jpg" alt="">
-        <img src="image/47.jpg" alt="">
-        <img src="image/48.jpg" alt="">
-        <img src="image/49.jpg" alt="">
+    <div class="g6_pic">
+        <span><img src="image/46.jpg" alt=""></span>
+        <span><img src="image/47.jpg" alt=""></span>
+        <span><img src="image/48.jpg" alt=""></span>
+        <span><img src="image/49.jpg" alt=""></span>
         <span class="up_ch">Monet's Studio Boat</span>
         <span class="down_ch">An artist on the water</span>
 
@@ -272,7 +462,7 @@
     </div>
 
     <h1>Maritime museums in...</h1>
-    <ul>
+    <ul class="country">
         <li>South Korea</li>
         <li>Malta</li>
         <li>Portugal</li>
@@ -281,9 +471,21 @@
         <li>Brazil</li>
         <li>USA</li>
     </ul>
-    <!-- ----------------------- -->
+
+    <!-- ---------颜色-------------- -->
     <h1>What's your favorite color?</h1>
     <h5>Discover over 100,000 artworks by color</h5>
+    <ul class="color">
+        <li><span>Blue-green</span></li>
+        <li><span>Blue</span></li>
+        <li><span>Purple</span></li>
+        <li><span>Pink</span></li>
+        <li><span>Red</span></li>
+        <li><span>Orange</span></li>
+        <li><span>Yellow</span></li>
+        <li><span>Green</span></li>
+    </ul>
+
 
     <h1>Look</h1>
     <div class="look">
@@ -314,8 +516,273 @@
     </div>
 
 
+    <!-- ------------------------- -->
+    <h1>Listen</h1>
+    <h5>Audio tours of iconic artworks</h5>
+    <div class="listen">
+        <div>
+            <img src="image/60.jpg" alt="">
+            <span class="l_ch1">Audio De Chirico</span>
+            <span class="l_ch2">Listen to a surreal soundsca...</span>
+        </div>
+        <div>
+            <img src="image/59.jpg" alt="">
+            <span class="l_ch1">Listen to a Kandinsky</span>
+            <span class="l_ch2">Sync up with synaesthesia</span>
+        </div>
+        <div>
+            <img src="image/58.jpg" alt="">
+            <span class="l_ch1">Look and Listen with Lowry</span>
+            <span class="l_ch2">The business of the day</span>
+        </div>
+        <div>
+            <img src="image/57.jpg" alt="">
+            <span class="l_ch1">Sights and Sounds of Poussin</span>
+            <span class="l_ch2">Soothe your eyes and ears with a calm landscape</span>
+        </div>
+        <div>
+            <img src="image/56.jpg" alt="">
+            <span class="l_ch1">A Pointed Self-Portrait</span>
+            <span class="l_ch2">Hear the elemental forces of Frida</span>
+        </div>
+        <div>
+            <img src="image/55.jpg" alt="">
+            <span class="l_ch1">Bazaar Sounds</span>
+            <span class="l_ch2">Tune in to the bustle</span>
+        </div>
+    </div>
 
 
+
+
+    <!-- -------------三张图片-------------------- -->
+    <h1>Beethoven Remixed</h1>
+    <h5>New ways to discover the maestro</h5>
+    <div class="BR">
+        <div>
+            <div class="t_pic"><img src="image/61.jpg" alt=""></div>
+            <div class="b_ch">
+                <span class="iconfont icon-fenxiang"></span>
+                <span class="tit1">Beethoven Goes Pop</span>
+                <span class="tit2">From the Beatles to Alicia Keys, discover these tributes to the classical master in
+                    the world of
+                    pop, rock, and hip-pop</span>
+            </div>
+        </div>
+
+
+        <div>
+
+            <div class="t_pic"><img src="image/62.jpg" alt=""></div>
+            <div class="b_ch">
+                <span class="iconfont icon-fenxiang"></span>
+                <span class="tit1">The Maestro at the Movies</span>
+                <span class="tit2">Lights, Ludwig, Camera, Action!</span>
+            </div>
+
+
+        </div>
+
+
+        <div>
+            <div class="t_pic"><img src="image/63.jpg" alt=""></div>
+            <div class="b_ch">
+                <span class="iconfont icon-fenxiang"></span>
+                <span class="tit1">Beethoven Everywhere</span>
+                <span class="tit2">From The Simpsons to the Stars, Beethoven's music pops up in some unexpected
+                    places</span>
+            </div>
+
+
+
+        </div>
+
+        <span class="iconfont icon-cc-arrow-left-circle"></span>
+        <span class="iconfont icon-cc-arrow-right-circle"></span>
+    </div>
+
+
+
+    <!-- ----------三张图片----------------- -->
+    <h1>Learn</h1>
+    <h5>Develop new skills and test your knowledge</h5>
+    <div class="draw">
+        <div>
+            <div class="pic64">
+                <img src="image/64.jpg" alt="">
+                <span class="d_ch1">Stay Within the Lines</span>
+                <span class="d_ch2">Color in your favorite paintings</span>
+            </div>
+            <div class="pic65">
+                <img src="image/65.jpg" alt="">
+                <span class="d_ch1">AI Art Teacher</span>
+                <span class="d_ch2">Hone your skills by drawing to a prompt</span>
+            </div>
+        </div>
+        <div class="pic66">
+            <img src="image/66.jpg" alt="">
+            <span class="d_ch1">Mimic a Monet</span>
+            <span class="d_ch2">Use at-home materials to recreate a masterpiece</span>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- GAMES_2 -->
+    <div class="game2">
+        <div class="title_games">GAMES</div>
+        <div class="five_r">
+            <img src="image/67.jpg" alt="">
+        </div>
+        <div class="five_r">
+            <img src="image/68.jpg" alt="">
+        </div>
+        <div class="five_r">
+            <img src="image/69.jpg" alt="">
+        </div>
+        <div class="five_r">
+            <img src="image/70.jpg" alt="">
+        </div>
+        <div class="five_r">
+            <img src="image/71.jpg" alt="">
+        </div>
+    </div>
+    <div class="button1"><a href="#">More games</a></div>
+
+    <!-- 广告 -->
+    <div class="Ms">
+        <div>
+            <div class="tit_Ms">Museum spotlight</div>
+            <div class="chars">
+                <div class="logo1"><img src="image/u2.png" alt=""></div>
+                <ul>
+                    <li>Museo Soumaya offers one of the most important private collections in Latin America with more
+                        than thirty centuries of art.</li>
+                    <li>See the collection</li>
+                </ul>
+            </div>
+        </div>
+        <div class="r_pic"><img src="image/72.jpg" alt=""></div>
+    </div>
+
+    <!-- 一张红色大图 -->
+    <div class="songs">
+        <div class="iconfont icon-fenxiang"></div>
+        <div>12 Songs Created by AI</div>
+        <div>The playlist of the future</div>
+
+    </div>
+    <div class="btn">
+        More than Human
+    </div>
+
+
+    <!-- 五张图片+放大镜图标 -->
+    <h1>Explore in high definition</h1>
+    <h5>The details you might have missed</h5>
+    <div class="explore">
+        <div>
+            <img src="image/74.jpg" alt="">
+            <div><span class="iconfont icon-fangda"></span></div>
+        </div>
+        <div>
+            <img src="image/75.jpg" alt="">
+            <div><span class="iconfont icon-fangda"></span></div>
+        </div>
+        <div>
+            <img src="image/76.jpg" alt="">
+            <div><span class="iconfont icon-fangda"></span></div>
+        </div>
+        <div>
+            <img src="image/77.jpg" alt="">
+            <div><span class="iconfont icon-fangda"></span></div>
+        </div>
+        <div>
+            <img src="image/79.jpg" alt="">
+            <div><span class="iconfont icon-fangda"></span></div>
+        </div>
+    </div>
+    <div class="button5">More artworks</div>
+
+
+    <!-- 栏目 -->
+    <div class="cln">
+        <span>How Does Edward Hopper Connect to Hong Kong?</span>
+        <span>Discover connections between culture with Machine Learing</span>
+        <span>Start finding connections</span>
+    </div>
+
+
+
+
+    <!-- 最后一组图片（轮播图） -->
+    <h1>Keep exploring...</h1>
+    <h5>Dive into culture from around the world</h5>
+    <div class="lastpic">
+        <i><span class="iconfont icon-shixinyuanxingjiantouzuo"></span></i>
+        <i><span class="iconfont icon-shixinyuanxingjiantouyou"></span></i>
+        <div>
+            <ul>
+                <li>
+                    <img src="image/81.jpg" alt="">
+                    <span class="ch1">Exploring the Maya World</span>
+                    <span class="ch2">A journey into the past</span>
+                    <span class="button2"><a href="#">浏览作品</a></span>
+                </li>
+                <li>
+                    <img src="image/82.jpg" alt="">
+                    <span class="ch1">Meet the People of Kenya</span>
+                    <span class="ch2">From the cradle of mankind</span>
+                    <span class="button2"><a href="#">浏览作品</a></span>
+                </li>
+                <li>
+                    <img src="image/84.jpg" alt="">
+                    <span class="ch1">Wonders of Pakistan</span>
+                    <span class="ch2">Discover the culture treasures</span>
+                    <span class="button2"><a href="#">浏览作品</a></span>
+                </li>
+                <li>
+                    <img src="image/85.jpg" alt="">
+                    <span class="ch1">Wayang Shadow Puppets</span>
+                    <span class="ch2">Style, epic stories, and surprises</span>
+                    <span class="button2"><a href="#">浏览作品</a></span>
+                </li>
+                <li>
+                    <img src="image/86.jpg" alt="">
+                    <span class="ch1">Cuban Arts & Culture</span>
+                    <span class="ch2">Artworks, archives, and stories</span>
+                    <span class="button2"><a href="#">浏览作品</a></span>
+                </li>
+                <li>
+                    <img src="image/87.jpg" alt="">
+                    <span class="ch1">A century of Polish Art</span>
+                    <span class="ch2">The inspirations and impact of artists</span>
+                    <span class="button2"><a href="#">浏览作品</a></span>
+                </li>
+                <li>
+                    <img src="image/88.jpg" alt="">
+                    <span class="ch1">Meet Lee Ungno</span>
+                    <span class="ch2">A new look at the pioneering artist</span>
+                    <span class="button2"><a href="#">浏览作品</a></span>
+                </li>
+                <li>
+                    <img src="image/89.jpg" alt="">
+                    <span class="ch1">Journey Around Mexico</span>
+                    <span class="ch2">Unique landscapes and ancient heritage</span>
+                    <span class="button2"><a href="#">浏览作品</a></span>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script type="text/javascript" src="./style.js"></script>
 </body>
 
 </html>
